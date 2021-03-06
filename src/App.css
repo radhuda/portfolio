@@ -42,4 +42,12 @@ nav ul li{
 }
 
 
-/**************************************************************************************/
+/************************************  HEADER  ******************************************/ 
+
+.header-wrapper{
+  position:relative;
+  background:url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaperaccess.com%2Fwhite-minimalist&psig=AOvVaw3fRblLDuQ7SjtEkCJJAB3r&ust=1615155642573000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOC11OjZnO8CFQAAAAAdAAAAABAD");
+  background-size: cover;
+  background-position:center;
+  height:90vh;
+}
