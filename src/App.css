@@ -37,7 +37,6 @@ nav ul li{
   font-family: 'Herr Von Muellerhoff', cursive;
   font-size: 2em !important;
 }
-
 .navbar > li > a.active, .navbar-nav > li > a:activesudo ufw app list
 :focus {
   border-top: 0.1875rem solid var(--primary-gray);
@@ -88,4 +87,31 @@ nav ul li{
   height: 100vh;
   widht: 100vw;
   z-index: 1;
+}
+
+/************************************  ABOUT ME  ******************************************/ 
+.photo-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-img{
+  width: 16rem;
+  border-radius: 70%;
+  padding: .5rem;
+  border: 3px solid #fff;
+}
+
+.aboutme{
+  font-family: Lato;
+}
+
+.aboutme h1{
+  color: #605858;
+}
+
+@media screen and (max-width:468px){
+  .profile-img{
+    width: 10rem;
+  }
 }
