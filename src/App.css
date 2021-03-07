@@ -12,6 +12,9 @@
 
 /************************************  NAVBAR  ******************************************/ 
 
+nav{
+  z-index: 2;
+}
 /****------menu links ----*****/
 nav a.nav-link {
   font-size: .8rem;
@@ -77,4 +80,12 @@ nav ul li{
 .typed-text{
   font-size: 2rem;
   color: #605858;
+}
+
+/*******----PARTICLES-----****/
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  widht: 100vw;
+  z-index: 1;
 }
